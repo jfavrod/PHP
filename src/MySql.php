@@ -1,5 +1,5 @@
 <?php
-namespace Epoque;
+namespace Epoque\PHP;
 
 
 /**
