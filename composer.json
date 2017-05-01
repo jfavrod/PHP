@@ -1,0 +1,13 @@
+{
+    "name": "epoque/php",
+    "description": "A PHP library for common tasks.",
+    "type": "library",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "not--p",
+            "email": "jason@epoquecorporation.com"
+        }
+    ],
+    "require": {}
+}
