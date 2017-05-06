@@ -1,6 +1,6 @@
 {
     "name": "epoque/php",
-    "description": "A PHP library for common tasks.",
+    "description": "A PHP library for common tasks.",
     "type": "library",
     "license": "GPLv2",
     "authors": [
