@@ -57,13 +57,13 @@ class FileReader
      *
      * Reads a single line from the give $file.
      *
-     * @return string|False A one line string from the file, or False
-     * if there are no lines to read.
+     * @return string|False A one line string with trailing newlines
+     * stripped from the file, or False if there are no lines to read.
      */
 
     public function readln()
     {
-        return fgets($this->file);
+        return rtrim(fgets($this->file));
     }
 
 
