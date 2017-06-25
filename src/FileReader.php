@@ -63,7 +63,12 @@ class FileReader
 
     public function readln()
     {
-        return rtrim(fgets($this->file));
+        $line = fgets($this->file);
+
+        if ($line !== false)
+            $line = rtrim($line);
+
+        return $line;
     }
 
 
